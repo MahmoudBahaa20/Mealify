@@ -1,0 +1,105 @@
+@media screen and (max-width:576px){
+    .navbar{
+        .moonbg{
+            display: none!important;
+        }
+        ul li a.active::before{
+        content: "";
+        width: 0!important;
+        height: 2px;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        background-color: var(--color-second);
+    }
+    ul li a:hover:before{
+        width: 10%!important;
+        
+    }
+    }
+    header{
+        
+        .overlay{
+            flex-direction: column-reverse!important;
+        }
+        .card-1{
+            display: flex!important;
+            flex-direction: column!important;
+            justify-content: center!important;
+            align-items: center!important;
+            padding-block:60px!important ;
+            p{
+                text-align: center!important;
+            }
+        }
+    }
+    .gallery{
+
+        .our-meals{
+            display: block!important;
+            
+            
+        }
+    }
+    footer {
+        .menu{
+            input{
+                width: 360px!important;
+            }
+            button{
+                width: 360px!important;
+                margin-top: 10px;
+            }
+            .menubar {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:992px) {
+   .navbar{
+        .moonbg{
+            display: none!important;
+        }
+        ul li a.active::before{
+        content: "";
+        width: 0!important;
+        height: 2px;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        background-color: var(--color-second);
+    }
+    ul li a:hover:before{
+        width: 10%!important;
+        
+    }
+    }
+    header{
+        
+        .overlay{
+            flex-direction: column-reverse!important;
+        }
+        .card-1{
+            display: flex!important;
+            flex-direction: column!important;
+            justify-content: center!important;
+            align-items: center!important;
+            padding-block:60px!important ;
+            p{
+                text-align: center!important;
+            }
+        }
+    }
+}
+@media screen and (min-width:992px) {
+    .navbar{
+        .moonlg{
+            display: none!important;
+        }
+    }
+}
